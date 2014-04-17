@@ -4,13 +4,17 @@ a express error handler express-scaffold built-in
 
 ### Installation
 ````
-$ [sudo] npm install express-common-errors
+$ npm install express-common-errors
 ````
-
 
 ### Example
 ````javascript
-var express-common-errors = require('express-common-errors');
+var app = express();
+var errors = require('express-common-errors');
+
+app.use(errors.logger);
+app.use(errors.xhr);
+app.use(errors.common);
 ````
 
 ### API
