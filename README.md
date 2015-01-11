@@ -1,6 +1,6 @@
 ## express-common-errors ![npm](https://badge.fury.io/js/express-common-errors.png)
 
-a express error handler express-scaffold built-in
+A express error handler express-scaffold built-in
 
 ### Installation
 ````
